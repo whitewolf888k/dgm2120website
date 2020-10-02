@@ -49,7 +49,7 @@ nav {
     font-size: 25px;
 }
 .nav-bar a:hover {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(177, 176, 109);
 }
 .keep-open {
     clear: both;
@@ -61,6 +61,7 @@ nav {
 }
 p, blockquote, ul, ol, dl {
     font-family: 'Quicksand', sans-serif;
+    font-size: ;
 }
 main {
     padding: .5rem 2%;
@@ -68,7 +69,9 @@ main {
     background-color: #341975;
     border-radius: 10px;
 }
-
+p {
+    padding: .8rem 2%;
+}
 /* Footer Start */
 footer {
     display: flex;
