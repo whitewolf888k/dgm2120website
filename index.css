@@ -20,6 +20,7 @@ header {
     padding: 10px;
     margin: 15px;
     border-radius: 10px;
+    font-size: 25px;
 }
 header h1, header h2 {
     display: flex;
@@ -29,6 +30,8 @@ nav {
     background-color: #341975;
     margin: 15px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 .nav-bar li {
     float: left;
@@ -36,10 +39,10 @@ nav {
 }
 .nav-bar a {
     display: block;
-    padding:10px 20px;
+    padding: 15px;
     color: #FADCAF;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 .nav-bar a:hover {
     background-color: rgb(153, 153, 153);
@@ -52,4 +55,16 @@ nav {
 }
 p, blockquote, ul, ol, dl {
     font-family: 'Quicksand', sans-serif;
+}
+main {
+    padding: .5rem 2%;
+    margin: 15px;
+    background-color: #341975;
+    border-radius: 10px;
+}
+main h1 {
+    font-family:
+}
+main blockquote {
+    padding bottom: .8rem;
 }
