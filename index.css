@@ -1,6 +1,55 @@
+/* CSS Reset */
+body, h1, h2, h3, h4, h5, h6, p {
+    padding:0;
+    margin:0;
+    }
+
+/* Box Model Fix */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
+    box-sizing: border-box;}
+
+/* CSS Start */
 body {
     background-color: #000B29;
-}
-h1, h2, p, blockquote, ul, li, dl{
+    }
+body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
+    }
+header {
+    background-color: #341975;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+header h1, header h2 {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    background-color: #341975;
+    margin: 15px;
+    border-radius: 10px;
+}
+.nav-bar li {
+    float: left;
+    list-style-type: none;
+}
+.nav-bar a {
+    display: block;
+    padding:10px 20px;
+    color: #FADCAF;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.nav-bar a:hover {
+    background-color: rgb(153, 153, 153);
+}
+.keep-open {
+    clear: both;
+}
+.tab-discription {
+    list-style-type: square;
+}
+p, blockquote, ul, ol, dl {
+    font-family: 'Quicksand', sans-serif;
 }
