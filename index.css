@@ -15,6 +15,7 @@ body {
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
     }
+
 /* Header Start */
 header {
     background-color: #341975;
@@ -27,6 +28,7 @@ header h1, header h2 {
     display: flex;
     justify-content: center;
 }
+
 /* Nav Start */
 nav {
     background-color: #341975;
@@ -52,6 +54,7 @@ nav {
 .keep-open {
     clear: both;
 }
+
 /* Main Start */
 .tab-discription {
     list-style-type: square;
@@ -64,4 +67,10 @@ main {
     margin: 15px;
     background-color: #341975;
     border-radius: 10px;
+}
+
+/* Footer Start */
+footer {
+    display: flex;
+    justify-content: center;
 }
