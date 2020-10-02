@@ -8,13 +8,14 @@ body, h1, h2, h3, h4, h5, h6, p {
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
     box-sizing: border-box;}
 
-/* CSS Start */
+/* Body Start */
 body {
     background-color: #000B29;
     }
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
     }
+/* Header Start */
 header {
     background-color: #341975;
     padding: 10px;
@@ -26,6 +27,7 @@ header h1, header h2 {
     display: flex;
     justify-content: center;
 }
+/* Nav Start */
 nav {
     background-color: #341975;
     margin: 15px;
@@ -50,6 +52,7 @@ nav {
 .keep-open {
     clear: both;
 }
+/* Main Start */
 .tab-discription {
     list-style-type: square;
 }
@@ -61,10 +64,4 @@ main {
     margin: 15px;
     background-color: #341975;
     border-radius: 10px;
-}
-main h1 {
-    font-family:
-}
-main blockquote {
-    padding bottom: .8rem;
 }
