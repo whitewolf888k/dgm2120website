@@ -82,7 +82,8 @@ main {
 }
 main h1 {
     font-size: 2rem;
-    border-bottom: 1.5px solid lightslategray;
+    border-bottom: 1.5px solid #AD6497;
+    
 }
 p {
     padding: .8rem;
@@ -95,7 +96,7 @@ p {
     padding-left: 45px;
 }
 .disclaimer li a {
-    color: powderblue;
+    color:#AD6497;
 }
 .about {
     display: flex;
@@ -126,7 +127,7 @@ p {
 }
 .top {
     font-family: 'Quicksand', sans-serif;
-    color: powderblue;
+    color: #AD6497;
     display: flex;
     justify-content: center;
 }
