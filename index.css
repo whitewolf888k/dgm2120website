@@ -1,5 +1,5 @@
  /* CSS Reset */
-body, h1, h2, h3, h4, h5, h6, p {
+body, h1, h2, h3, h4, h5, h6, p, ul {
     padding:0;
     margin:0;
     }
@@ -15,6 +15,9 @@ body {
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
     }
+h1, h2 {
+    font-family: 'Fondamento', cursive;
+}
 
 /* Header Start */
 header {
@@ -27,7 +30,15 @@ header {
 header h1, header h2 {
     display: flex;
     justify-content: center;
-}
+    /* Would like to use this font. Can't figure out how to set it up */
+    @font-face {
+        font-family: 'dark_crystalnormal';
+        src: url('dark_crystal_normal_400-webfont.woff2') format('woff2'),
+        url('dark_crystal_normal_400-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}  
 
 /* Nav Start */
 nav {
@@ -49,13 +60,13 @@ nav {
     font-size: 25px;
 }
 .nav-bar a:hover {
-    background-color: rgb(177, 176, 109);
+    background-color: rgb(223, 164, 76);
 }
 .keep-open {
     clear: both;
 }
 
-/* Main Start */
+/* Main Start for all html */
 .tab-discription {
     list-style-type: square;
 }
@@ -68,9 +79,34 @@ main {
     background-color: #341975;
     border-radius: 10px;
 }
-p {
-    padding: .8rem 2%;
+main h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid lightslategray;
 }
+p {
+    padding: .8rem;
+    line-height: 150%;
+}
+.disclaimer {
+    list-style-type: lower-roman;
+    padding: 10px 30px;
+}
+.disclaimer li a {
+    color: powderblue;
+}
+
+/* History tab */
+.the-beginning {
+    padding: 25px 10px;
+}
+.terminology {
+    padding: 10px 30px;
+}
+.top {
+    font-family: 'Quicksand', sans-serif;
+    color: powderblue;
+}
+
 /* Footer Start */
 footer {
     display: flex;
