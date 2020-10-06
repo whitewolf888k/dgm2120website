@@ -81,30 +81,53 @@ main {
 }
 main h1 {
     font-size: 2rem;
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 1.5px solid lightslategray;
 }
 p {
     padding: .8rem;
     line-height: 150%;
 }
+/* About Tab */
 .disclaimer {
     list-style-type: lower-roman;
-    padding: 10px 30px;
+    padding: 10px 0;
+    padding-left: 45px;
 }
 .disclaimer li a {
     color: powderblue;
 }
-
-/* History tab */
+.about {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.note {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+/* History Tab */
+.history-thra {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
 .the-beginning {
     padding: 25px 10px;
 }
 .terminology {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.terminology-list {
     padding: 10px 30px;
 }
 .top {
     font-family: 'Quicksand', sans-serif;
     color: powderblue;
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer Start */
