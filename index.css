@@ -30,14 +30,14 @@ header {
 header h1, header h2 {
     display: flex;
     justify-content: center;
-    /* Would like to use this font. Can't figure out how to set it up */
+    /* Would like to use this font. Can't figure out how to set it up 
     @font-face {
         font-family: 'dark_crystalnormal';
         src: url('dark_crystal_normal_400-webfont.woff2') format('woff2'),
         url('dark_crystal_normal_400-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-    }
+    } */
 }  
 
 /* Nav Start */
@@ -72,6 +72,7 @@ nav {
 }
 p, blockquote, ul, ol, dl {
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
 main {
     padding: .5rem 2%;
