@@ -96,7 +96,7 @@ p {
     padding-left: 45px;
 }
 .disclaimer li a {
-    color:#66d1bf;
+    color: cornflowerblue;
 }
 .about {
     display: flex;
@@ -128,7 +128,7 @@ p {
 .top {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;
-    color: #66d1bf;
+    color: cornflowerblue;
     display: flex;
     justify-content: center;
 }
