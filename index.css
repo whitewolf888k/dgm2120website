@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Body Start */
 body {
-    background-color: #000B29;
+    background-image: linear-gradient(90deg, rgb(12, 2, 34) 0%, rgb(76, 54, 94) 100%);
     }
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
@@ -20,8 +20,8 @@ h1, h2 {
 }
 
 /* Header Start */
-header {
-    background-color: #341975;
+.header {
+    /*background-color: #765faa73;*/
     padding: 10px;
     margin: 15px;
     border-radius: 10px;
@@ -42,7 +42,7 @@ header h1, header h2 {
 
 /* Nav Start */
 nav {
-    background-color: #341975;
+    background-color: #765faa73;
     margin: 15px;
     border-radius: 10px;
     display: flex;
@@ -77,12 +77,12 @@ p, blockquote, ul, ol, dl {
 main {
     padding: .5rem 2%;
     margin: 15px;
-    background-color: #341975;
+    /*background-color: #765faa73;*/
     border-radius: 10px;
 }
 main h1 {
     font-size: 2rem;
-    border-bottom: 1.5px solid #AD6497;
+    border-bottom: 2px solid #FADCAF;
     
 }
 p {
@@ -96,7 +96,7 @@ p {
     padding-left: 45px;
 }
 .disclaimer li a {
-    color:#AD6497;
+    color:#66d1bf;
 }
 .about {
     display: flex;
@@ -127,7 +127,8 @@ p {
 }
 .top {
     font-family: 'Quicksand', sans-serif;
-    color: #AD6497;
+    font-size: 1.2rem;
+    color: #66d1bf;
     display: flex;
     justify-content: center;
 }
