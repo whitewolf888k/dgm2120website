@@ -103,6 +103,14 @@ p {
 .disclaimer li a {
     color: cornflowerblue;
 }
+figure.poster {
+    margin: 0;
+    padding: 1.2em;
+    float: right;
+}
+/*figure.poster img {
+    width: 100%;
+}*/
 .about {
     display: flex;
     justify-content: center;
@@ -140,12 +148,18 @@ p {
 
 /* Characters Tab*/
 .pictures {
-    padding: 20px;
-    margin: 20px;
+    padding: .5rem;
+    margin: 0;
 }
 .skeksis-pic {
     width: 96%;
     height: 39%;
+}
+figcaption.skeksis {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fondamento', cursive;
+    font-size: 2.5rem;
 }
 .urRu-pic {
     width: 96%;
