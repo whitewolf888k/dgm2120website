@@ -138,6 +138,31 @@ p {
     justify-content: center;
 }
 
+/* Characters Tab*/
+.pictures {
+    padding: 20px;
+    margin: 20px;
+}
+.skeksis-pic {
+    width: 96%;
+    height: 39%;
+}
+.urRu-pic {
+    width: 96%;
+    height: 39%;
+}
+.Aughra-pic {
+    width: 96%;
+    height: 39%;
+}
+.gelfling-pic {
+    width: 96%;
+    height: 39%;
+}
+.podling-pic {
+    width: 96%;
+    height: 39%;
+}
 /* Footer Start */
 footer {
     display: flex;
