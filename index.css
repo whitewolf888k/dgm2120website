@@ -15,6 +15,12 @@ body {
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
     }
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
 h1, h2 {
     font-family: 'Fondamento', cursive;
 }
@@ -25,7 +31,6 @@ h1, h2 {
     padding: 10px;
     margin: 15px;
     border-radius: 10px;
-    font-size: 25px;
 }
 header h1, header h2 {
     display: flex;
@@ -86,7 +91,7 @@ main {
     border-radius: 10px;
 }
 main h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     border-bottom: 2px solid #FADCAF;
     
 }
@@ -150,6 +155,10 @@ figcaption.poster {
 }
 
 /* Characters Tab*/
+.characters {
+    display: flex;
+    justify-content: center;
+}
 .pictures {
     padding: .5rem;
     margin: 0;
@@ -157,28 +166,43 @@ figcaption.poster {
 .skeksis-pic {
     width: 96%;
     height: 39%;
+    border-radius: 10px;
+}
+.urRu-pic {
+    width: 96%;
+    height: 39%;
+    border-radius: 10px;
+}
+.Aughra-pic {
+    width: 96%;
+    height: 39%;
+    border-radius: 10px;
+}
+.gelfling-pic {
+    width: 96%;
+    height: 39%;
+    border-radius: 10px;
+}
+.podling-pic {
+    width: 96%;
+    height: 39%;
+    border-radius: 10px;
 }
 figcaption {
     display: flex;
     justify-content: center;
     font-family: 'Fondamento', cursive;
     font-size: 2.5rem;
+    background-color: #765faa73;
+    color:#FADCAF;
+    border-radius: 10px;
+    margin-right: 4%;
 }
-.urRu-pic {
-    width: 96%;
-    height: 39%;
+figcaption.poster {
+    margin-right: 0;
 }
-.Aughra-pic {
-    width: 96%;
-    height: 39%;
-}
-.gelfling-pic {
-    width: 96%;
-    height: 39%;
-}
-.podling-pic {
-    width: 96%;
-    height: 39%;
+figure a {
+    text-decoration: none;
 }
 /* Footer Start */
 footer {
