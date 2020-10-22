@@ -82,7 +82,7 @@ nav {
 }
 p, blockquote, ul, ol, dl {
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 main {
     padding: .5rem 2%;
@@ -133,7 +133,8 @@ figcaption.poster {
 .history-thra {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0;
 }
 .the-beginning {
     padding: 25px 10px;
@@ -156,53 +157,41 @@ figcaption.poster {
 
 /* Characters Tab*/
 .characters {
+    text-align: center;
+}
+div.gallary {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
-.pictures {
-    padding: .5rem;
-    margin: 0;
-}
-.skeksis-pic {
-    width: 96%;
-    height: 39%;
+div.gallary figure {
+    margin:10px;
+    padding: 5px;
+    border: solid 1px;
     border-radius: 10px;
 }
-.urRu-pic {
-    width: 96%;
-    height: 39%;
-    border-radius: 10px;
+.pic {
+    width: 400px;
+    height: 190px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.Aughra-pic {
-    width: 96%;
-    height: 39%;
-    border-radius: 10px;
-}
-.gelfling-pic {
-    width: 96%;
-    height: 39%;
-    border-radius: 10px;
-}
-.podling-pic {
-    width: 96%;
-    height: 39%;
-    border-radius: 10px;
-}
-figcaption {
-    display: flex;
-    justify-content: center;
+figure figcaption {
     font-family: 'Fondamento', cursive;
     font-size: 2.5rem;
     background-color: #765faa73;
     color:#FADCAF;
-    border-radius: 10px;
-    margin-right: 4%;
-}
-figcaption.poster {
-    margin-right: 0;
+    text-align: center;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 figure a {
     text-decoration: none;
+}
+figure.poster {
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px;
 }
 /* Footer Start */
 footer {
