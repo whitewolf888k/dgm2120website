@@ -133,8 +133,6 @@ figcaption.poster {
 .history-thra {
     display: flex;
     justify-content: center;
-    margin-top: 0;
-    padding-top: 0;
 }
 .the-beginning {
     padding: 25px 10px;
@@ -153,6 +151,7 @@ figcaption.poster {
     color: cornflowerblue;
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 /* Characters Tab*/
@@ -160,8 +159,10 @@ figcaption.poster {
     text-align: center;
 }
 div.gallary {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 div.gallary figure {
     margin:10px;
@@ -193,8 +194,16 @@ figure.poster {
     padding: 5px;
     border: solid 1px;
 }
+/* Behind the Scenes Tab */
+.behind {
+    text-align: center;
+}
+
+/* News Tab */
+.news {
+    text-align: center;
+}
 /* Footer Start */
 footer {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
