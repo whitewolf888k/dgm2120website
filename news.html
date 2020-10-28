@@ -27,13 +27,58 @@
      <p>
         
      </p>
-     <h1>Form</h1>
+     <h1 class="news">Form</h1>
      <fieldset>
          <legend>News Letter</legend>
-     <form action="" method="POST" enctype="multipart/form-data" name="">
-         First Name: <input name="first" value="" type="text" placeholder="First Name">
-
-         <input type="submit" name="sumit" value="Sign up for News Letter">
+     <form class="letter" action="" method="POST" enctype="multipart/form-data" name="">
+         <label><span>First Name:</span><input name="first" value="" type="text" placeholder="First Name"></label>
+         <label><span>Last Name:</span><input name="first" value="" type="text" placeholder="Last Name"></label>
+         <label><span>Email:</span><input type="email" name="email" value="" placeholder="Email"></label>
+         <label><span>Phone:</span><input type="tel" name="phone-number" value="" placeholder="Phone"></label>
      </form>
+    </fieldset>
+    <fieldset>
+        <legend>Computer</legend>
+        <form>
+            <label><input type="radio" name="computer" value="macintosh">Macintosh</label>
+            <br>
+            <label><input type="radio" name="computer" value="windows">Windows</label>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>What to know more?</legend>
+        <form>
+            Which of these would you like to know more about?
+            <br>
+            <label><input type="checkbox" name="char" value="characters">Characters</label>
+            <br>
+            <label><input type="checkbox" name="places" value="Places">Locations</label>
+            <br>
+            <label><input type="checkbox" name="places" value="Places">Creatures</label>
+            <br>
+            <label><input type="checkbox" name="places" value="Places"></label>
+            <br>
+            <label><input type="checkbox" name="places" value="Places">Places</label>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Options</legend>
+        <form action="" method="GET" enctype="multipart/form-data" name="">
+        Who is your favorit Character?
+        <select>
+            <option>Jen</option>
+            <option>Kira</option>
+            <option>Aughra</option>
+            <option>SkekSil</option>
+            <option>urRu</option>
+        </select>
+        <input type="submit" name="sumit" value="Sign up for News Letter">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Comments</legend>
+        Please leave comments and questions below
+        <br>
+        <textarea name="comments"></textarea>
     </fieldset>
  </main>
