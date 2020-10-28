@@ -206,7 +206,6 @@ figure a {
 fieldset {
     border: 2px solid #FADCAF;
     border-radius: 10px;
-    padding: 1rem 2%;
     background-color: #765faa73;
 }
 legend {
@@ -214,11 +213,12 @@ legend {
 }
 form.letter label {
     display: block;
+    padding-bottom: 1rem;
 }
 form.letter span {
     display: block;
     font-size: 1.2rem;
-    padding-top: 1rem;
+    padding: .5rem;
 }
 /* Footer Start */
 footer {
