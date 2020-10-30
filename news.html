@@ -26,16 +26,17 @@
      <h1 class="news">What's New?</h1>
      <p>
         ATTENTION!!! Netflix has anounced that they will not be making a second seson of <i>The Dark Crystal: Age of Resistance</i>!!!</p>
-    <figure>
+    <figure class="cancelled">
         <img src="images/TDC-Cancelled.jpg">
         <figcaption>
         <a href="https://deadline.com/2020/09/the-dark-crystal-age-of-resistance-canceled-after-one-season-netflix-1234581520/">News Artical</a>
         </figcaption>
     </figure>
-     <h1 class="news">Form</h1>
+     <h1 class="news">Supscribe to a News Letter</h1>
+     <p>What to know what's happening with the Dark Crystal World? Sign up for our news letter and we'll let you know what the latest news is!</p>
      <fieldset>
-         <legend>News Letter</legend>
-     <form class="letter" action="" method="POST" enctype="multipart/form-data" name="">
+         <legend>Basic Info</legend>
+     <form class="info" action="" method="POST" enctype="multipart/form-data" name="">
          <label><span>First Name:</span><input name="first" value="" type="text" placeholder="First Name" required></label>
          <label><span>Last Name:</span><input name="first" value="" type="text" placeholder="Last Name" required></label>
          <label><span>Email:</span><input type="email" name="email" value="" placeholder="Email" required></label>
@@ -44,8 +45,8 @@
     </fieldset>
     <fieldset>
         <legend>Contact</legend>
-        <form>
-            How would you like to be contacted?
+        <form class="info">
+            <span>How would you like to be contacted?</span>
             <label><input type="radio" name="info" value="email">Email</label>
             <label><input type="radio" name="info" value="text">Text</label>
             <label><input type="radio" name="info" value="phone">Phone Call</label>
@@ -53,22 +54,19 @@
     </fieldset>
     <fieldset>
         <legend>Want to know more?</legend>
-        <form>
+        <form class="info">
             Which of these would you like to know more about?
-            <br>
             <label><input type="checkbox" name="char" value="characters">History</label>
-            <br>
             <label><input type="checkbox" name="places" value="Places">Characters</label>
-            <br>
             <label><input type="checkbox" name="places" value="Places">Behind the Scenes</label>
-            <br>
-            <label>Other:<input type="text" name="places" value=""></label>
+            <label><span>Other:</span><input type="text" name="places" value=""></label>
         </form>
     </fieldset>
     <fieldset>
         <legend>Random Servey</legend>
         <form action="" method="GET" enctype="multipart/form-data" name="">
         Who is your favorit Character?
+        <br>
         <select>
             <option>Jen</option>
             <option>Kira</option>
@@ -80,6 +78,7 @@
             <option>Brea</option>
             <option>Deet</option>
         </select>
+        <br>
         <input type="submit" name="sumit" value="Sign up for News Letter">
         </form>
     </fieldset>
