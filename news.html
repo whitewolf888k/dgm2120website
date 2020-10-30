@@ -25,24 +25,30 @@
  <main>
      <h1 class="news">What's New?</h1>
      <p>
-        
-     </p>
+        ATTENTION!!! Netflix has anounced that they will not be making a second seson of <i>The Dark Crystal: Age of Resistance</i>!!!</p>
+    <figure>
+        <img src="images/TDC-Cancelled.jpg">
+        <figcaption>
+        <a href="https://deadline.com/2020/09/the-dark-crystal-age-of-resistance-canceled-after-one-season-netflix-1234581520/">News Artical</a>
+        </figcaption>
+    </figure>
      <h1 class="news">Form</h1>
      <fieldset>
          <legend>News Letter</legend>
      <form class="letter" action="" method="POST" enctype="multipart/form-data" name="">
-         <label><span>First Name:</span><input name="first" value="" type="text" placeholder="First Name"></label>
-         <label><span>Last Name:</span><input name="first" value="" type="text" placeholder="Last Name"></label>
-         <label><span>Email:</span><input type="email" name="email" value="" placeholder="Email"></label>
-         <label><span>Phone:</span><input type="tel" name="phone-number" value="" placeholder="Phone"></label>
+         <label><span>First Name:</span><input name="first" value="" type="text" placeholder="First Name" required></label>
+         <label><span>Last Name:</span><input name="first" value="" type="text" placeholder="Last Name" required></label>
+         <label><span>Email:</span><input type="email" name="email" value="" placeholder="Email" required></label>
+         <label><span>Phone:</span><input type="tel" name="phone-number" value="" placeholder="Phone" required pattern[0-9]{10}></label>
      </form>
     </fieldset>
     <fieldset>
-        <legend>Computer</legend>
+        <legend>Contact</legend>
         <form>
-            <label><input type="radio" name="computer" value="macintosh">Macintosh</label>
-            <br>
-            <label><input type="radio" name="computer" value="windows">Windows</label>
+            How would you like to be contacted?
+            <label><input type="radio" name="info" value="email">Email</label>
+            <label><input type="radio" name="info" value="text">Text</label>
+            <label><input type="radio" name="info" value="phone">Phone Call</label>
         </form>
     </fieldset>
     <fieldset>
@@ -60,15 +66,19 @@
         </form>
     </fieldset>
     <fieldset>
-        <legend>Options</legend>
+        <legend>Random Servey</legend>
         <form action="" method="GET" enctype="multipart/form-data" name="">
         Who is your favorit Character?
         <select>
             <option>Jen</option>
             <option>Kira</option>
+            <option>Fizzgig</option>
             <option>Aughra</option>
-            <option>SkekSil</option>
-            <option>urRu</option>
+            <option>Skeksis</option>
+            <option>urRu(Mystics)</option>
+            <option>Rian</option>
+            <option>Brea</option>
+            <option>Deet</option>
         </select>
         <input type="submit" name="sumit" value="Sign up for News Letter">
         </form>
