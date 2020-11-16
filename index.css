@@ -270,6 +270,9 @@ select, option, input {
     border-radius: 10px;
     background-color: cornflowerblue;
 }
+.com-but {
+    margin-top: 10px;
+}
 /* Footer Start */
 footer {
     text-align: center;
