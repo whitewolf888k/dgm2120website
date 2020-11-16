@@ -27,7 +27,7 @@
      <p class="news">ATTENTION!!! Netflix has anounced that they will not be making a second seson of <i>The Dark Crystal: Age of Resistance</i>!!!</p>
    <div class="cancel-div">
     <figure class="cancelled">
-        <img class="cancel-pic" src="images/TDC-Cancelled.jpg">
+        <img class="cancel-pic" src="images/TDC-Cancelled.jpg" alt="gelfling shown with the words'Netflix Cancels Dark Crystal' overlayed.">
         <figcaption>
         <a href="https://deadline.com/2020/09/the-dark-crystal-age-of-resistance-canceled-after-one-season-netflix-1234581520/" target="_blank">News Artical</a>
         </figcaption>
@@ -37,7 +37,7 @@
      <p>Want to know what's happening with the Dark Crystal World? Sign up for our news letter and we'll let you know what the latest news is!</p>
      <fieldset>
          <legend>Basic Info</legend>
-     <form class="info" action="" method="POST" enctype="multipart/form-data" name="">
+     <form class="info contact" action="" method="POST" enctype="multipart/form-data" name="">
          <label><span>First Name:</span><input name="first" value="" type="text" placeholder="First Name" required></label>
          <label><span>Last Name:</span><input name="first" value="" type="text" placeholder="Last Name" required></label>
          <label><span>Email:</span><input type="email" name="email" value="" placeholder="Email" required></label>
@@ -46,8 +46,8 @@
     </fieldset>
     <fieldset>
         <legend>Contact</legend>
-        <form class="info">
-            <span>How would you like to be contacted?</span>
+        <form class="info contact">
+            <p class="contact">How would you like to be contacted?</p>
             <label><input type="radio" name="info" value="email">Email</label>
             <label><input type="radio" name="info" value="text">Text</label>
             <label><input type="radio" name="info" value="phone">Phone Call</label>
@@ -55,8 +55,8 @@
     </fieldset>
     <fieldset>
         <legend>Want to know more?</legend>
-        <form class="info">
-            Which of these would you like to know more about?
+        <form class="info contact">
+            <p class="contact">Which of these would you like to know more about?</p>
             <label><input type="checkbox" name="char" value="characters">History</label>
             <label><input type="checkbox" name="places" value="Places">Characters</label>
             <label><input type="checkbox" name="places" value="Places">Behind the Scenes</label>
@@ -65,9 +65,9 @@
     </fieldset>
     <fieldset>
         <legend>Random Servey</legend>
-        <form action="thanks.html" method="POST" enctype="multipart/form-data" name="">
-        Who is your favorit Character?
-        <br>
+        <form class="info contact" action="thanks.html" method="POST" enctype="multipart/form-data" name="">
+        <p class="contact">Who is your favorit Character?</p>
+        <div class="drop-down">
         <select>
             <option>Jen</option>
             <option>Kira</option>
@@ -79,14 +79,14 @@
             <option>Brea</option>
             <option>Deet</option>
         </select>
+        </div>
         <br>
-        <input type="submit" name="sumit" value="Sign up for News Letter">
+        <input class="submit-button" type="submit" name="sumit" value="Sign up for News Letter">
         </form>
     </fieldset>
     <fieldset>
         <legend>Comments</legend>
-        Please leave comments and questions below
-        <br>
-        <textarea name="comments"></textarea>
+        <p class="contact">Please leave comments and questions below!</p>
+        <textarea class="comment contact" name="comments"></textarea>
     </fieldset>
  </main>
