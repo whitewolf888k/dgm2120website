@@ -203,6 +203,26 @@ figure a {
 .news {
     text-align: center;
 }
+p.news {
+    margin: 10px;
+}
+.cancel-div {
+    margin: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cancelled {
+    width: 55.3%;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cancel-pic {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 fieldset {
     border: 2px solid #FADCAF;
     border-radius: 10px;
