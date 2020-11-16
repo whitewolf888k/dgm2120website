@@ -230,15 +230,15 @@ fieldset {
     margin: 20px 10px;
 }
 legend {
-    font-size: 1.8rem;
+    font-size: 1.8em;
 }
 form.info label {
     display: block;
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
 }
 form.info span {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     padding: .5rem;
 }
 label {
@@ -248,20 +248,23 @@ label {
     padding-left: 20px;
 }
 select, option, input {
-    font-size: 1.2rem;
+    font-size: .90em;
     font-family: 'Quicksand', sans-serif;
 }
 .contact {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-family: 'Quicksand', sans-serif;
     margin-top: 0;
+}
+.other {
+    padding-left: 20px;
 }
 .comment {
     margin-left: 15px;
     margin-bottom: 8px;
 }
 .submit-button {
-    font-size: .75em;
+    font-size: .90em;
     font-family: 'Quicksand', sans-serif;
     color:rgb(12, 2, 34);
     margin-left: 15px;
