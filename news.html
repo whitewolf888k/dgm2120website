@@ -35,37 +35,31 @@
    </div>
      <h1 class="news">Supscribe to a News Letter</h1>
      <p>Want to know what's happening with the Dark Crystal World? Sign up for our news letter and we'll let you know what the latest news is!</p>
+     <form class="info contact" action="thanks.html" method="POST" enctype="multipart/form-data" name="newsLetter">
      <fieldset>
          <legend>Basic Info</legend>
-     <form class="info contact" action="" method="POST" enctype="multipart/form-data" name="">
          <label><span>First Name:</span><input name="first" value="" type="text" placeholder="John" required></label>
          <label><span>Last Name:</span><input name="first" value="" type="text" placeholder="Smith" required></label>
          <label><span>Email:</span><input type="email" name="email" value="" placeholder="j.smith@email.com" required></label>
-         <label><span>Phone:</span><input type="tel" name="phone-number" value="" placeholder="8014459959" required pattern[0-9]{10}></label>
-     </form>
+         <label><span>Phone:</span><input type="tel" name="phone-number" value="" placeholder="801-445-9959" required pattern[0-9-. ]{10,14}></label>
     </fieldset>
     <fieldset>
         <legend>Contact</legend>
-        <form class="info contact">
             <p class="contact">How would you like to be contacted?</p>
             <label><input type="radio" name="info" value="email">Email</label>
             <label><input type="radio" name="info" value="text">Text</label>
             <label><input type="radio" name="info" value="phone">Phone Call</label>
-        </form>
     </fieldset>
     <fieldset>
         <legend>Want to know more?</legend>
-        <form class="info contact">
             <p class="contact">Which of these would you like to know more about?</p>
             <label><input type="checkbox" name="char" value="characters">History</label>
             <label><input type="checkbox" name="places" value="Places">Characters</label>
             <label><input type="checkbox" name="places" value="Places">Behind the Scenes</label>
             <label class="other">Other: <input type="text" name="places" value=""></label>
-        </form>
     </fieldset>
     <fieldset>
         <legend>Random Servey</legend>
-        <form class="info contact" action="thanks.html" method="POST" enctype="multipart/form-data" name="">
         <p class="contact">Who is your favorit Character?</p>
         <div class="drop-down">
         <select>
@@ -82,15 +76,21 @@
         </div>
         <br>
         <input class="submit-button" type="submit" name="submit" value="Sign up for News Letter">
-        </form>
     </fieldset>
+    </form>
+    <form action="comment.html" method="GET" enctype="multipart/form-data" name="">
     <fieldset>
         <legend>Comments</legend>
-        <form action="comment.html" method="GET" enctype="multipart/form-data" name="">
         <p class="contact">Please leave comments and questions below!</p>
         <textarea class="comment contact" name="comments"></textarea>
         <br>
         <input class="com-but submit-button" type="submit" name="submit" value="Comment">
-        </form>
     </fieldset>
+    </form>
  </main>
+ <!-- End of Content -->
+    <footer>
+        <p>&copy; 2020 &bull; Built by Karalee Rodgers</p>
+    </footer>
+ </body>
+</html>
