@@ -248,9 +248,13 @@ label {
 .drop-down {
     padding-left: 20px;
 }
-select, option, input {
+select, option, input, textarea {
     font-size: .90em;
     font-family: 'Quicksand', sans-serif;
+    color: #FADCAF;
+    background-color: rgb(12, 2, 34);
+    border-radius: 5px;
+    padding: 5px;
 }
 .contact {
     font-size: 1.2em;
