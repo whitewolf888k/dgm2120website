@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Body Start */
 body {
-    background-image: linear-gradient(90deg, rgb(12, 2, 34) 0%, rgb(76, 54, 94) 100%);
+    background-image: linear-gradient(to right, rgb(12, 2, 34) 0%, rgb(76, 54, 94) 100%);
     }
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
@@ -23,8 +23,12 @@ h2 {
 }
 h1, h2 {
     font-family: 'Fondamento', cursive;
+    text-shadow: 3px 3px 4px #000;
 }
-
+#container {
+    max-width: 1250px; 
+    margin: 0 auto;
+}
 /* Header Start */
 .header {
     /*background-color: #765faa73;*/
@@ -52,6 +56,7 @@ nav {
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    box-shadow: 3px 3px 5px #000;
 }
 .nav-bar li {
     float: left;
