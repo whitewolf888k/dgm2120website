@@ -100,17 +100,11 @@ h1, h2 {
     background-image: url(/images/crystal-logo.png);
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: 50px;
+    background-size: 48px;
     /*background-color: #765faa73;linear-gradient(to right, rgb(12, 2, 34) 0%, rgb(76, 54, 94) 100%);*/
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 9rem;
-    margin-right: 2rem;
-    border-radius: 10px;
 }
 header h1 {
-    text-align: left;
-    margin-left: 80px;
+    text-align: center;
     /* Would like to use this font. Can't figure out how to set it up 
     @font-face {
         font-family: 'dark_crystalnormal';
@@ -121,8 +115,7 @@ header h1 {
     } */
 }  
 header h2 {
-    text-align: left;
-    margin-left: 120px;
+    text-align: center;
 }
 /* Nav Start */
 
