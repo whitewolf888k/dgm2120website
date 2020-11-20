@@ -30,14 +30,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     .nav-bar li a:hover {
         background-color: cornflowerblue;
     }
-    .header {
+    body {
         background-image: url(/images/crystal-logo.png);
         background-repeat: no-repeat;
-        background-position: left 15px top;
-        background-size: 29px;
+        background-position: top 15px center;
+        background-size: 100px;
         margin-top: 10px;
-
-}
+    }
 }
 
 /* Desktop nav rules here */
@@ -73,6 +72,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     .keep-open {
         clear: both;
     }
+    .header {
+        /*ShadeMeadowsArt on imgur created the logo*/
+        background-image: url(/images/crystal-logo.png);
+        background-repeat: no-repeat;
+        background-position: left 120px top;
+        background-size: 48px;
+        margin-top: 10px;
 }
 /* Box Model Fix */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
@@ -101,6 +107,7 @@ h1, h2 {
     max-width: 1250px; 
     margin: 0 auto;
 }
+
 /* Header Start */
 .header {
     /*ShadeMeadowsArt on imgur created the logo*/
@@ -109,7 +116,6 @@ h1, h2 {
     background-position: left 120px top;
     background-size: 48px;
     margin-top: 10px;
-    /*background-color: #765faa73;linear-gradient(to right, rgb(12, 2, 34) 0%, rgb(76, 54, 94) 100%);*/
 }
 header h1 {
     text-align: center;
