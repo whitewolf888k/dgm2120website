@@ -6,14 +6,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Phone nav Rules*/
 @media only screen and (max-width: 600px) {
     nav {
-        background: linear-gradient(to right, rgba(90, 56, 99, 0.822) 10%, rgba(189, 109, 182, 0.664) 100%);;
+        background: linear-gradient(to right, rgba(90, 56, 99, 0.733) 10%, rgba(189, 109, 182, 0.616) 100%);;
         padding: .5rem 2%;
         border-radius: 10px;
     }
-    .nav-bar li {
+    nav ul {
         list-style-type: none;
     }
-    .nav-bar a {
+    nav ul li a {
         border: solid 2px #FADCAF;
         display: block;
         padding: .5rem 2%;
@@ -24,16 +24,21 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
         font-weight: 600;
         text-decoration: none;
     }
-    .nav-bar li.active a {
-        background-color: cornflowerblue;
+    nav ul li.active a {
+        background-color: rgba(100, 148, 237, 0.676);
     }
-    .nav-bar li a:hover {
-        background-color: cornflowerblue;
+    nav ul li a:hover {
+        background-color: rgba(100, 148, 237, 0.676);
+    }
+    html {
+        background-image: url(/images/background.gif);
+        background-repeat: repeat-y;
+        background-color: rgb(76, 54, 94);
     }
     body {
         background-image: url(/images/crystal-logo.png);
         background-repeat: no-repeat;
-        background-position: top 15px center;
+        background-position: top 280px center;
         background-size: 100px;
         margin-top: 10px;
     }
@@ -72,6 +77,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     .keep-open {
         clear: both;
     }
+    body {
+        background-image: url(/images/background.gif);
+        background-repeat: repeat-y;
+        background-color: rgb(76, 54, 94);
+        }
     .header {
         /*ShadeMeadowsArt on imgur created the logo*/
         background-image: url(/images/crystal-logo.png);
@@ -79,17 +89,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
         background-position: left 120px top;
         background-size: 48px;
         margin-top: 10px;
+        }
 }
 /* Box Model Fix */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
     box-sizing: border-box;}
 
 /* Body Start */
-body {
-    background-image: url(/images/background.gif);
-    background-repeat: repeat-y;
-    background-color: rgb(76, 54, 94);
-    }
 body, h1, h2, p, blockquote, ul, ol, dl{
     color: #FADCAF
     }
@@ -106,17 +112,10 @@ h1, h2 {
 #container {
     max-width: 1250px; 
     margin: 0 auto;
+    /*box-shadow: 5px 5px 25px #000;*/
 }
 
 /* Header Start */
-.header {
-    /*ShadeMeadowsArt on imgur created the logo*/
-    background-image: url(/images/crystal-logo.png);
-    background-repeat: no-repeat;
-    background-position: left 120px top;
-    background-size: 48px;
-    margin-top: 10px;
-}
 header h1 {
     text-align: center;
     /* Would like to use this font. Can't figure out how to set it up 
@@ -166,12 +165,17 @@ p {
 .disclaimer li a {
     color: cornflowerblue;
 }
+.quote {
+    margin: 20px;
+}
 figure.poster {
-    margin: 10px;
+    margin: 0;
+    margin-bottom: 30px;
     padding: 5px;
     float: right;
     border: solid 2px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px #000;
 }
 figure.poster img {
     border-top-left-radius: 10px;
@@ -230,6 +234,7 @@ div.gallary figure {
     padding: 5px;
     border: solid 2px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px #000
 }
 .pic {
     width: 400px;
