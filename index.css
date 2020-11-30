@@ -170,6 +170,7 @@ p {
 }
 figure.poster {
     margin: 0;
+    margin-left: 10px;
     margin-bottom: 30px;
     padding: 5px;
     float: right;
