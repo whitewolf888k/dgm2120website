@@ -257,10 +257,51 @@ figure a {
     text-decoration: none;
     color: #FADCAF;
 }
+/*Skeksis Page*/
+table {
+    box-shadow: 1px 3px 10px #000;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    background: linear-gradient(to right, rgba(90, 56, 99, 0.822) 10%, rgba(189, 109, 182, 0.664) 100%);
+}
+table th {
+    background-color: rgb(12, 2, 34);
+    padding: .5rem;
+    font-family: 'Fondamento', cursive;
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+}
+table tr {
+    margin: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+}
+table tr:hover {
+    background-color: cornflowerblue;
+}
+table td {
+    padding:.5rem;
+    border-bottom: 1px solid #000;
+}
 
 /* Behind the Scenes Tab */
 .behind {
     text-align: center;
+}
+.video {
+    margin-top: 20px;
+}
+.topic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.web-iframe {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    height: 30rem;
+    border: 3px solid #FADCAF;
 }
 
 /* News Tab */
