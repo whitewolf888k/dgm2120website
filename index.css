@@ -263,7 +263,9 @@ table {
     border-collapse: collapse;
     width: 90%;
     margin-left: 5%;
-    background: linear-gradient(to right, rgba(90, 56, 99, 0.822) 10%, rgba(189, 109, 182, 0.664) 100%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(189, 109, 182, 0.664);
 }
 table th {
     background-color: rgb(12, 2, 34);
@@ -273,9 +275,13 @@ table th {
     border-bottom: 1px solid #000;
 }
 table tr {
+    text-align: center;
     margin: 1rem;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.8rem;
+}
+table tr:nth-child(even){
+    background-color: rgba(90, 56, 99, 0.822);
 }
 table tr:hover {
     background-color: cornflowerblue;
