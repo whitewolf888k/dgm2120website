@@ -309,7 +309,11 @@ table td {
     height: 30rem;
     border: 3px solid #FADCAF;
 }
-
+.audio {
+    /*margin-left: 32%;*/
+    display: flex;
+    justify-content: center;
+}
 /* News Tab */
 .news {
     text-align: center;
