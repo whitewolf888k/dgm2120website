@@ -310,7 +310,7 @@ table td {
     border: 3px solid #FADCAF;
 }
 .audio {
-    /*margin-left: 32%;*/
+    margin-left: 35%;
     display: flex;
     justify-content: center;
 }
